@@ -10,7 +10,11 @@
   <body>
     <div class="row mx-auto">
       <div class="col-md-8 mx-auto">
-        <h1>TMDB Movie Search</h1>
+        <h1>
+          <a href="https://www.themoviedb.org/">
+            <img src="./images/tmdb_logo.svg" alt="TMDB LOGO"
+          /></a>
+        </h1>
 
         <form class="form-inline" id="search-form">
           <div class="form-floating mb-3">
@@ -20,8 +24,8 @@
 
           <button class="btn btn-primary mb-3" type="submit">Search!</button>
         </form>
-
         <div id="movie-container" class="row"></div>
+
         <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 
         <script
